@@ -6,6 +6,7 @@ Es gibt 3 Arduino und 2 Python Files, damit das Projekt in Etappen aufgebaut wer
 <img src="pics/obshotkey_kommunikation.jpg" width="500" />
 
 * Websocket-Server Daten in OBS holen und in ws_live.py eintragen
+* OBS - > Unter Werkzeuge -> Websocket-Server Einstellungen gibt es Konfigurationsmöglichkeiten
 * OBS starten
 * `python3 ws_live.py`starten und im Hintergrund laufen lassen
 * Arduino flashen und via USB verbinden
@@ -23,9 +24,6 @@ Es gibt 3 Arduino und 2 Python Files, damit das Projekt in Etappen aufgebaut wer
 
 ## Arduino Keyboard.h 
 https://www.arduino.cc/reference/en/language/functions/usb/keyboard/keyboardmodifiers/
-
-## OBS
-Unter Werkzeuge -> Websocket-Server Einstellungen gibt es Konfigurationsmöglichkeiten. 
 
 ## Warum kein ESP32?
 USB-Verbindung war mir in dem Fall wichtiger als per BLE die Keyboard Aktionen zu übermitteln. 
