@@ -3,7 +3,7 @@
 Es gibt 3 Arduino und 2 Python Files, damit das Projekt in Etappen aufgebaut werden kann.
 
 ## Quickstart
-<img src="pics/obshotkey_kommunikation.jpg" width="300" />
+<img src="pics/obshotkey_kommunikation.jpg" width="500" />
 
 * Websocket-Server Daten in OBS holen und in ws_live.py eintragen
 * OBS starten
@@ -12,7 +12,7 @@ Es gibt 3 Arduino und 2 Python Files, damit das Projekt in Etappen aufgebaut wer
 * OBS Aktionen mittels Button/Arduino steuern und sich über LED Visualsierung freuen
 
 ## Verdrahtung
-<img src="pics/Verdrahtung_Hotkey_Steckplatine.jpg" width="300" />
+<img src="pics/Verdrahtung_Hotkey_Steckplatine.jpg" width="500" />
 
 ## IDEE und Programmablauf
 * Arduino Mikro ist per USB mit PC Verbunden
@@ -21,7 +21,7 @@ Es gibt 3 Arduino und 2 Python Files, damit das Projekt in Etappen aufgebaut wer
 * Per Python wird via Websocket der aktuelle Status ausgelesen und via Serial zu Arduino gesendet
 * Je Aktion "rekord", "resume", "pause" etc. gibt es eine LED zur Visualsierung
 
-## Arduino Keyboard.h und 
+## Arduino Keyboard.h 
 https://www.arduino.cc/reference/en/language/functions/usb/keyboard/keyboardmodifiers/
 
 ## OBS
